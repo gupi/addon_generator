@@ -1,0 +1,26 @@
+# addon:template de_de
+template_information = Information
+template_title = Addon Sample Template
+template_files = Files
+template_required_files_headline = Required Files
+template_optional_files_headline = Optional Files
+template_table_description = Description/Used for
+template_folder = Folder
+template_folder_headline = optional Folder
+template_hint = Hint
+template_info = Info
+template_settings = Settings
+template_save = Save
+template_continue = Continue
+template_create = Create Addon
+template_cancel = Back To Previous Window
+template_documentation = Documentation
+template_select = Select
+template_file_msg0 = The REDAXO documentation provides a usefull description of handling files and folders
+template_file_msg1 = This file containes all required parameter to configure the addon
+template_file_msg2 = During startup this file is used to control all requres activities. Here you might register all of your own functions to the appropirate extension-points. See also: 
+template_file_msg3 = Help file used by "Backend/Mainmenu/AddOns"
+template_file_msg4 = Processed during installation of the addon
+template_file_msg5 = This file is used to maintain database tables during installation phase, if required.
+template_file_msg6 = This file is used to maintain database tables during de-installation phase. (e.g. deletion or updating of tables and fields)
+template_name_missing = The Addon - template requires a name!

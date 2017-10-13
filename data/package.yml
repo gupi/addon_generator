@@ -1,0 +1,19 @@
+# Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
+
+package: ***name***
+version: '***version***'
+author: '***author***'
+compile: 0
+
+page:
+  title: '***title***'
+  perm: ***name***[]
+  pjax: true
+  icon: rex-icon fa-hospital-o
+  subpages:
+    info: { title: 'translate:***name***_information' }
+
+requires:
+    packages:
+    
+    redaxo: '>=***release***'

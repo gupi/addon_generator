@@ -1,0 +1,23 @@
+# Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
+
+package: template
+version: '1.1.0'
+author: Gunter Pietzsch
+info: Idee und Realisierung der ersten Version Gunter Pietzsch
+compile: 0
+
+page:
+  title: 'Addon Template'
+  perm: template[]
+  pjax: true
+  icon: rex-icon fa-hospital-o
+  subpages:
+    files: { title: 'translate:template_files' }
+    folder: { title: 'translate:template_folder' }
+    template: { title: 'Package Generator'}
+    take_over: {title: 'Addon take over'}
+
+requires:
+    packages:
+    
+    redaxo: '>=5.3.0'
